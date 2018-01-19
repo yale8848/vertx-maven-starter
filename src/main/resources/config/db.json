@@ -1,0 +1,8 @@
+{
+  "test":{
+    "url":"jdbc:mysql://www-old.daoxuehao.com:3306/db_easystudycard?autoReconnect=true&characterEncoding=utf-8&useSSL=false",
+    "driver_class":"com.mysql.jdbc.Driver",
+    "user":"root",
+    "password":"lftdxh888888"
+  }
+}
