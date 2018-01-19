@@ -50,5 +50,7 @@ public class DBVerticle extends AbstractVerticle{
   @Override
   public void start(Future<Void> startFuture) throws Exception {
     configDB(startFuture);
+
+
   }
 }
