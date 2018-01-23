@@ -97,7 +97,7 @@ public class Idiom2DB extends AbstractVerticle{
     ConfigRetriever retriever = ConfigRetriever.create(vertx, options);
     retriever.getConfig(jsonObjectAsyncResult -> {
       JsonObject jo;
-      jo = jsonObjectAsyncResult.result().getJsonObject("test");
+      jo = jsonObjectAsyncResult.result().getJsonObject("localProd");
       jdbc = JDBCClient.createShared(vertx, jo, "dxh-writer");
 
       jdbc.getConnection(ar -> {
